@@ -1,0 +1,152 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+header{
+    background-color: #2D25A0;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-left: 80px;
+}
+.menu a{
+    padding-left: 20px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    width: 90px;
+    height: 30px;
+    background-color: #E02C6D;
+    padding: 10px 14px;
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline;
+    justify-content: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-title{
+    width: 485px;
+    height: 230px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.half-wdith{
+    width: 50%;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 50px;
+}
+
+.detail-info{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+}
+
+.player-banner{
+    display: grid;
+    align-items: center;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.info-title{
+    color: black;
+}
+
+.info{
+    color: #6C6C6C;
+}
+
+
+.highlights-title{
+    width: 485px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.ftr{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ftr img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.fab{
+   color: #969BAB;
+   font-size: 17px;
+   background-color: #E7E7E8;
+   border: 1px solid #E7E7E8;
+   padding: 10px;
+   border-radius: 50%;
+}
+
+.ending-details{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:688px) {
+    .all-players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
