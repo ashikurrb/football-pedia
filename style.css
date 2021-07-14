@@ -130,6 +130,41 @@ a{
     font-size: 30px;
 }
 
+
+.newsletter{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: gray;
+    margin-top: 20px;
+    color: white;
+}
+
+.newstitle{
+    font-size: 40px;
+    text-align: center;
+}
+
+.email{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#newsmail{
+    width: 200px;
+    height: 10px;
+    padding: 20px;
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+    color: rgb(3, 34, 34);
+    border-radius: 5px;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
 .ftr{
     width: 100%;
     display: grid;
