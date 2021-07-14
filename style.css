@@ -3,8 +3,6 @@
     margin: 0%;
 }
 
-
-
 header{
     background-color: #2D25A0;
     width: 100%;
@@ -61,7 +59,6 @@ a{
     font-weight: bold;
     font-size: 50px;
     color: #FFFFFF;
-    transition: ;
 }
 
 .half-wdith{
