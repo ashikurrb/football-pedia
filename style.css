@@ -118,12 +118,12 @@ a{
     width: 100%;
     display: grid;
     justify-content: space-around;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .highlights-title{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .highlights-info{
@@ -164,6 +164,10 @@ a{
     .banner{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+        .banner-title{
+       margin-left: 50px;
+        }
 }
 
 @media only screen and (min-width:688px) and (max-width:992px) {
