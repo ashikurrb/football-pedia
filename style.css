@@ -3,9 +3,16 @@
     margin: 0%;
 }
 
+
+
 header{
     background-color: #2D25A0;
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
 }
+
+/* navigation bar */
 
 .nav-bar{
     display: flex;
@@ -13,11 +20,8 @@ header{
     justify-content: space-between;
 }
 
-.menu{
-    margin-left: 80px;
-}
 .menu a{
-    padding-left: 20px;
+    margin-right: 20px;
 }
 
 a{
@@ -38,32 +42,32 @@ a{
     justify-content: center;
 }
 
+/* head banner */
+
 .banner{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    
 }
 
+
 .banner-title{
-    width: 485px;
-    height: 230px;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-    line-height: 80px;
     color: #FFFFFF;
 }
 
 .half-wdith{
-    width: 50%;
-    justify-content: center;
+    width: 100%;
     margin-top: 50px;
-    
+
 }
 
 .half-width img{
-    width: 556.01px;
-    height: 438px;
+    width: 480px;
+    height: 400px;
     margin-top: 50px;
 }
 
@@ -110,12 +114,20 @@ a{
     color: #6C6C6C;
 }
 
+.highlights{
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    margin-left: 100px;
+}
 
 .highlights-title{
-    width: 485px;
-    font-style: normal;
     font-weight: bold;
     font-size: 50px;
+}
+
+.highlights-info{
+
 }
 
 .ftr{
@@ -148,5 +160,15 @@ a{
     .all-players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .all-players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
