@@ -36,13 +36,12 @@ a{
     margin-right: 20px;
     display: inline;
     justify-content: center;
-    
+    transition: padding 1s ease-in;
 }
 
 .btn:hover{
     background-color: gray;
     padding: 10px 34px;
-    transition: padding 1s ease-in;
 }
 
 /* head banner */
