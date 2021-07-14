@@ -30,14 +30,19 @@ a{
 
 .btn{
     color: white;
-    width: 90px;
-    height: 30px;
     background-color: #E02C6D;
     padding: 10px 14px;
     margin-top: 10px;
     margin-right: 20px;
     display: inline;
     justify-content: center;
+    
+}
+
+.btn:hover{
+    background-color: gray;
+    padding: 10px 34px;
+    transition: padding 1s ease-in;
 }
 
 /* head banner */
@@ -47,12 +52,6 @@ a{
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around; 
 }
-
-.banner:hover{
-    transform: translate(100px);
-    transition: transform 1s ease-in;
-}
-
 
 .banner-title{
     font-style: normal;
@@ -154,12 +153,18 @@ a{
 }
 
 .submit{
-    width: 100px;
-    height: 50px;
+    padding: 20px 34px;
     color: rgb(3, 34, 34);
     border-radius: 5px;
     font-size: 10px;
     margin-left: 30px;
+    color: white;
+    background-color: indigo;
+}
+.submit:hover{
+    padding: 20px 44px;
+    border-radius: 20px;
+    transition: padding 0.7s ease-in;
 }
 
 .ftr{
