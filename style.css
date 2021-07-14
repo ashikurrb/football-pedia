@@ -151,21 +151,6 @@ a{
     padding: 20px;
 }
 
-.submit{
-    padding: 20px 34px;
-    color: rgb(3, 34, 34);
-    border-radius: 5px;
-    font-size: 10px;
-    margin-left: 30px;
-    color: white;
-    background-color: indigo;
-}
-.submit:hover{
-    padding: 20px 44px;
-    border-radius: 20px;
-    transition: padding 0.7s ease-in;
-}
-
 .ftr{
     width: 100%;
     display: grid;
